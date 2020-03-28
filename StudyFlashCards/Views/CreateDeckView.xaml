@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="StudyFlashCards.Views.CreateDeckView">
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Order="Primary"
+                         Text="+"
+                         Priority="0"
+                         Clicked="ToolbarItem_Clicked"/>
+        </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="10">
+                <Entry Placeholder="Title..." />
+                <Label Text="Title" />
+            </StackLayout>
+            <StackLayout>
+                <ListView
+                ItemsSource="{Binding FlashCards}"
+                HasUnevenRows="true"
+                SeparatorVisibility="None">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Padding="10">
+                                    <Frame>
+                                        <StackLayout>
+                                            <Entry Placeholder="Term..." Text="{Binding Term}" />
+                                            <Label Text="Term" TextColor="Gray" />
+                                            <Entry Placeholder="Definition..." Text="{Binding Definition}" />
+                                            <Label Text="Definition" TextColor="Gray" />
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

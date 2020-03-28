@@ -1,0 +1,14 @@
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/bin/Debug/netstandard2.0/StudyFlashCards.deps.json
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/bin/Debug/netstandard2.0/StudyFlashCards.dll
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/bin/Debug/netstandard2.0/ref/StudyFlashCards.dll
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/bin/Debug/netstandard2.0/StudyFlashCards.pdb
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/Views/CreateDeckView.xaml.g.cs
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/Views/DecksView.xaml.g.cs
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/StudyFlashCards.AssemblyInfoInputs.cache
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/StudyFlashCards.AssemblyInfo.cs
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/StudyFlashCards.dll
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/ref/StudyFlashCards.dll
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/StudyFlashCards.pdb
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/StudyFlashCards.csprojAssemblyReference.cache
