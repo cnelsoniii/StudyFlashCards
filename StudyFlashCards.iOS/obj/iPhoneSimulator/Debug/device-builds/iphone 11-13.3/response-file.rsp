@@ -164,6 +164,11 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
+-r=/Users/corneliusnelson/.nuget/packages/sqlite-net-pcl/1.6.292/lib/netstandard1.1/SQLite-net.dll
+-r=/Users/corneliusnelson/.nuget/packages/sqlitepclraw.bundle_green/1.1.13/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_green.dll
+-r=/Users/corneliusnelson/.nuget/packages/sqlitepclraw.bundle_green/1.1.13/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll
+-r=/Users/corneliusnelson/.nuget/packages/sqlitepclraw.core/1.1.13/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll
+-r=/Users/corneliusnelson/.nuget/packages/sqlitepclraw.provider.sqlite3.ios_unified/1.1.13/lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll
 -r=/Users/corneliusnelson/.nuget/packages/syncfusion.licensing/17.4.0.55/lib/Xamarin.iOS10/Syncfusion.Licensing.dll
 -r=/Users/corneliusnelson/.nuget/packages/syncfusion.xamarin.cards/17.4.0.55/lib/Xamarin.iOS10/Syncfusion.Cards.XForms.dll
 -r=/Users/corneliusnelson/.nuget/packages/syncfusion.xamarin.cards/17.4.0.55/lib/Xamarin.iOS10/Syncfusion.Cards.XForms.iOS.dll
@@ -211,4 +216,3 @@
 -r=/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/bin/Debug/netstandard2.0/StudyFlashCards.dll
  --target-framework=Xamarin.iOS,v1.0
 --root-assembly=/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/StudyFlashCards.iOS.exe
- 

@@ -35,6 +35,10 @@ Function=SystemNative_GetEGid
 	/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-cache/1-Link/mscorlib.dll
 Function=SystemNative_GetEUid
 	/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LChflags
+	/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LChflagsCanSetHiddenFlag
+	/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-cache/1-Link/mscorlib.dll
 Function=SystemNative_Link
 	/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-cache/1-Link/mscorlib.dll
 Function=SystemNative_MkDir
@@ -1077,6 +1081,8 @@ Function=xamarin_localized_string_format_8
 Function=xamarin_localized_string_format_9
 	/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_init_nsthread
+	/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_os_log
 	/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=NetSecurityNative_ReleaseGssBuffer
 	/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/mtouch-cache/1-Link/System.dll

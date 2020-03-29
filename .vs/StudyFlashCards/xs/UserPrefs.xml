@@ -1,20 +1,19 @@
 ﻿<Properties StartupConfiguration="{BFB9FDEB-B587-42D1-8620-6EF1B791FC1C}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="StudyFlashCards/App.xaml.cs">
     <Files>
-      <File FileName="StudyFlashCards/Views/DecksView.xaml" Line="7" Column="1" />
-      <File FileName="StudyFlashCards/Views/DecksView.xaml.cs" Line="25" Column="1" />
-      <File FileName="StudyFlashCards/Models/Deck.cs" Line="2" Column="1" />
-      <File FileName="StudyFlashCards/Models/FlashCard.cs" Line="4" Column="1" />
-      <File FileName="StudyFlashCards/Views/CreateDeckView.xaml.cs" Line="12" Column="16" />
-      <File FileName="StudyFlashCards/Views/CreateDeckView.xaml" Line="16" Column="44" />
-      <File FileName="StudyFlashCards/App.xaml" Line="1" Column="1" />
-      <File FileName="StudyFlashCards/App.xaml.cs" Line="14" Column="56" />
+      <File FileName="StudyFlashCards/Models/Deck.cs" Line="16" Column="34" />
+      <File FileName="StudyFlashCards/Views/DecksView.xaml.cs" Line="10" Column="6" />
+      <File FileName="StudyFlashCards/Views/DecksView.xaml" />
+      <File FileName="StudyFlashCards/Views/CreateDeckView.xaml.cs" />
+      <File FileName="StudyFlashCards/Views/CreateDeckView.xaml" />
+      <File FileName="StudyFlashCards/App.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StudyFlashCards" expanded="True">
             <Node name="StudyFlashCards" expanded="True">
+              <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="CreateDeckView.xaml" expanded="True" />
@@ -24,7 +23,6 @@
                 <Node name="App.xaml.cs" selected="True" />
               </Node>
             </Node>
-            <Node name="StudyFlashCards.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

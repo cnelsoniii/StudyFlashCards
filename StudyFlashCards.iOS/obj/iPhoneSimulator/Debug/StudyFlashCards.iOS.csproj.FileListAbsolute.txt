@@ -1,5 +1,10 @@
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/StudyFlashCards.iOS.exe
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/StudyFlashCards.iOS.pdb
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.sqlite3.dll
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Licensing.dll
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Cards.XForms.dll
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Cards.XForms.iOS.dll
@@ -61,3 +66,4 @@
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/StudyFlashCards.iOS.csproj.CopyComplete
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/StudyFlashCards.iOS.exe
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/StudyFlashCards.iOS.pdb
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/StudyFlashCards.iOS.csproj.CoreCompileInputs.cache
