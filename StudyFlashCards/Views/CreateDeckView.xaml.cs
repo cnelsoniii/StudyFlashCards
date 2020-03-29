@@ -12,10 +12,5 @@ namespace StudyFlashCards.Views
         {
             InitializeComponent();
         }
-
-        void ToolbarItem_Clicked(System.Object sender, System.EventArgs e)
-        {
-            //FlashCards.Add(new FlashCard { Term = string.Empty, Definition = string.Empty });
-        }
     }
 }

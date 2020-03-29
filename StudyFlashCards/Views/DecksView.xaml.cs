@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using StudyFlashCards.Models;
+using StudyFlashCards.ViewModels;
 using Xamarin.Forms;
 
 namespace StudyFlashCards.Views
@@ -22,7 +23,7 @@ namespace StudyFlashCards.Views
         {
             await Navigation.PushAsync(new CreateDeckView
             {
-                BindingContext = new Deck()
+                BindingContext = new CreateDeckViewModel()
             });
         }
     }

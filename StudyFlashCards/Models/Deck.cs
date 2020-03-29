@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using SQLite;
 
 namespace StudyFlashCards.Models
@@ -11,12 +12,5 @@ namespace StudyFlashCards.Models
         public string Title { get; set; }
         public int CardCount { get; set; }
         public ObservableCollection<FlashCard> FlashCards { get; set; }
-
-        public Deck()
-        {
-            Title = string.Empty;
-            FlashCards = new ObservableCollection<FlashCard>();
-            FlashCards.Add(new FlashCard { Term = string.Empty, Definition = string.Empty });
-        }
     }
 }
