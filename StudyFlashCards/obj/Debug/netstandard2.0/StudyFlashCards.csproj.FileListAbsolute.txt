@@ -12,4 +12,3 @@
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/StudyFlashCards.dll
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/ref/StudyFlashCards.dll
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/StudyFlashCards.pdb
-/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards/obj/Debug/netstandard2.0/StudyFlashCards.csprojAssemblyReference.cache

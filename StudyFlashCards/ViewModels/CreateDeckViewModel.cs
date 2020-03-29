@@ -3,6 +3,7 @@ using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Windows.Input;
+using SQLite;
 using StudyFlashCards.Models;
 using Xamarin.Forms;
 
@@ -11,6 +12,7 @@ namespace StudyFlashCards.ViewModels
     public class CreateDeckViewModel : INotifyPropertyChanged
     {
         public ICommand AddFlashCardCommand => new Command(AddFlashCard);
+        public ICommand SaveDeckCommand => new Command(SaveDeck);
         public event PropertyChangedEventHandler PropertyChanged;
 
         string title = string.Empty;
@@ -23,6 +25,19 @@ namespace StudyFlashCards.ViewModels
                     return;
                 title = value;
                 OnPropertyChanged(nameof(Title));
+            }
+        }
+
+        Deck deck = new Deck();
+        public Deck Deck
+        {
+            get => deck;
+            set
+            {
+                if (deck == value)
+                    return;
+                deck = value;
+                OnPropertyChanged(nameof(Deck));
             }
         }
 
@@ -39,9 +54,19 @@ namespace StudyFlashCards.ViewModels
             FlashCards.Add(new FlashCard { Term = string.Empty, Definition = string.Empty });
         }
 
-        void OnPropertyChanged(string title)
+        public void SaveDeck()
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(title));
+            if(deck != null)
+            {
+                deck.Title = this.title;
+                deck.CardCount = this.FlashCards.Count;
+                deck.FlashCards = this.FlashCards;
+            }
+        }
+
+        void OnPropertyChanged(string name)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
     }
 }

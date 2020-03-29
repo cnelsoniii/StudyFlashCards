@@ -8,6 +8,9 @@
         </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
+            <StackLayout>
+                <Button Text="Save" Command="{Binding SaveDeckCommand}"/>
+            </StackLayout>
             <StackLayout Padding="10">
                 <Entry Placeholder="Title" Text="{Binding Title}"/>
                 <Label Text="Title" TextColor="Gray"/>

@@ -1,5 +1,6 @@
 ﻿using System;
 using StudyFlashCards.Data;
+using StudyFlashCards.ViewModels;
 using StudyFlashCards.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -9,28 +10,17 @@ namespace StudyFlashCards
 {
     public partial class App : Application
     {
-        static DecksDatabase database;
-
         public App()
         {
             InitializeComponent();
 
-            var nav = new NavigationPage(new DecksView());
+            var nav = new NavigationPage(new DecksView
+            {
+                BindingContext = new DecksViewModel()
+            });
 
             MainPage = nav;
 
-        }
-
-        public static DecksDatabase Database
-        {
-            get
-            {
-                if (database == null)
-                {
-                    database = new DecksDatabase();
-                }
-                return database;
-            }
         }
 
         protected override void OnStart()
