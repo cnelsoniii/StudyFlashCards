@@ -2,6 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
+using System.Linq;
 using System.Windows.Input;
 using SQLite;
 using StudyFlashCards.Models;
@@ -54,14 +55,15 @@ namespace StudyFlashCards.ViewModels
             FlashCards.Add(new FlashCard { Term = string.Empty, Definition = string.Empty });
         }
 
-        public void SaveDeck()
+        public async void SaveDeck()
         {
             if(deck != null)
             {
                 deck.Title = this.title;
                 deck.CardCount = this.FlashCards.Count;
-                deck.FlashCards = this.FlashCards;
+                deck.FlashCards = this.FlashCards.ToList();
             }
+            await App.Database.SaveDeckAsync(deck);
         }
 
         void OnPropertyChanged(string name)

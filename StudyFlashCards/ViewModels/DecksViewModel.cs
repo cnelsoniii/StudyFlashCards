@@ -15,7 +15,12 @@ namespace StudyFlashCards.ViewModels
 
         public DecksViewModel()
         {
-                Decks = new ObservableCollection<Deck>();
+            
+        }
+
+        public async void OnAppearing()
+        {
+            Decks = new ObservableCollection<Deck>(await App.Database.GetDecksAsync());
         }
 
         public void CreateNewDeck()

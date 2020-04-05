@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudyFlashCards.Views.StudyFlashCardsView"
+             xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms">
+    <ContentPage.Content>
+
+        <cards:SfCardLayout SwipeDirection="Left" HeightRequest="500" BackgroundColor="#F0F0F0" BindableLayout.ItemsSource="{Binding FlashCards}">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <cards:SfCardView>
+		                <Label Text="{Binding Term}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+	                </cards:SfCardView>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </cards:SfCardLayout>
+
+        <!--Code straight from syncfusion card doc
+            Keep to test swiping feature. Currently
+            does not work-->
+
+        <!--<cards:SfCardLayout SwipeDirection="Left" HeightRequest="500" BackgroundColor="#F0F0F0">
+
+	        <cards:SfCardView>
+		        <Label  Text="Cyan" BackgroundColor="Cyan"/>
+	        </cards:SfCardView>
+
+	        <cards:SfCardView>
+		        <Label  Text="Yellow" BackgroundColor="Yellow"/>
+	        </cards:SfCardView>
+
+	        <cards:SfCardView>
+		        <Label  Text="Orange" BackgroundColor="Orange"/>
+	        </cards:SfCardView>  
+
+        </cards:SfCardLayout>-->
+
+    </ContentPage.Content>
+</ContentPage>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--<StackLayout Padding="10" BindableLayout.ItemsSource="{Binding FlashCards}">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate>
+                    <cards:SfCardView SwipeToDismiss="true">
+	                    <Label Text="{Binding Term}"/>
+                    </cards:SfCardView>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </StackLayout>-->

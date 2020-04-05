@@ -55,15 +55,15 @@
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/StudyFlashCards.dll
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/bin/iPhoneSimulator/Debug/StudyFlashCards.pdb
-/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/ibtool/_BundleResourceWithLogicalName.items
-/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/actool/_PartialAppManifest.items
-/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/actool/_BundleResourceWithLogicalName.items
-/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/coremlc/_PartialAppManifest.items
-/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/coremlc/_BundleResourceWithLogicalName.items
-/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/StudyFlashCards.iOS.csprojAssemblyReference.cache
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/StudyFlashCards.iOS.csproj.CoreCompileInputs.cache
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/StudyFlashCards.iOS.csproj.CopyComplete
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/StudyFlashCards.iOS.exe
 /Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/StudyFlashCards.iOS.pdb
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/actool/_PartialAppManifest.items
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/actool/_BundleResourceWithLogicalName.items
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/coremlc/_PartialAppManifest.items
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/corneliusnelson/Projects/StudyFlashCards/StudyFlashCards.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/
