@@ -32,30 +32,32 @@ namespace StudyFlashCards
         {
             InitializeComponent();
 
-            Deck deck = new Deck();
-
-            FlashCards = new List<FlashCard>();
-            FlashCards.Add(new FlashCard { Term = "Studying" });
-            FlashCards.Add(new FlashCard { Term = "Hard" });
-
-            deck.FlashCards = FlashCards;
-
-            //var nav = new NavigationPage(new DecksView
-            //{
-            //    BindingContext = new DecksViewModel()
-            //});
-
-            //MainPage = nav;
-
-            //Temporary in order to test StudyFlashCardView
-            var nav = new NavigationPage(new StudyFlashCardsView
+            //KEEP: ORIGINAL CODE
+            var nav = new NavigationPage(new DecksView
             {
-                BindingContext = new StudyFlashCardViewModel(deck)
+                BindingContext = new DecksViewModel()
             });
 
             MainPage = nav;
 
-            //MainPage = new StudyFlashCardsView();
+
+
+
+            //Temporary in order to test StudyFlashCardView
+            //Deck deck = new Deck();
+
+            //FlashCards = new List<FlashCard>();
+            //FlashCards.Add(new FlashCard { Term = "Studying" });
+            //FlashCards.Add(new FlashCard { Term = "Hard" });
+
+            //deck.FlashCards = FlashCards;
+
+            //var nav = new NavigationPage(new StudyFlashCardsView
+            //{
+            //    BindingContext = new StudyFlashCardViewModel(deck)
+            //});
+
+            //MainPage = nav;
 
         }
 

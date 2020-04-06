@@ -11,7 +11,8 @@
             <ListView
                 ItemsSource="{Binding Decks}"
                 HasUnevenRows="true"
-                SeparatorVisibility="None">
+                SeparatorVisibility="None"
+                ItemTapped="ListView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

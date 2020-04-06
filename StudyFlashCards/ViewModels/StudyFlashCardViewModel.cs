@@ -13,6 +13,5 @@ namespace StudyFlashCards.ViewModels
         {
             FlashCards = deck.FlashCards;
         }
-
     }
 }

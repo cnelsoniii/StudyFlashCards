@@ -4,7 +4,6 @@
              x:Class="StudyFlashCards.Views.StudyFlashCardsView"
              xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms">
     <ContentPage.Content>
-
         <cards:SfCardLayout SwipeDirection="Left" HeightRequest="500" BackgroundColor="#F0F0F0" BindableLayout.ItemsSource="{Binding FlashCards}">
             <BindableLayout.ItemTemplate>
                 <DataTemplate>
@@ -14,27 +13,6 @@
                 </DataTemplate>
             </BindableLayout.ItemTemplate>
         </cards:SfCardLayout>
-
-        <!--Code straight from syncfusion card doc
-            Keep to test swiping feature. Currently
-            does not work-->
-
-        <!--<cards:SfCardLayout SwipeDirection="Left" HeightRequest="500" BackgroundColor="#F0F0F0">
-
-	        <cards:SfCardView>
-		        <Label  Text="Cyan" BackgroundColor="Cyan"/>
-	        </cards:SfCardView>
-
-	        <cards:SfCardView>
-		        <Label  Text="Yellow" BackgroundColor="Yellow"/>
-	        </cards:SfCardView>
-
-	        <cards:SfCardView>
-		        <Label  Text="Orange" BackgroundColor="Orange"/>
-	        </cards:SfCardView>  
-
-        </cards:SfCardLayout>-->
-
     </ContentPage.Content>
 </ContentPage>
 
