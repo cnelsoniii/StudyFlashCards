@@ -4,12 +4,6 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "StudyFlashCards.Android.dll" comes first in this list. */
 		"StudyFlashCards.Android.dll",
 		"FormsViewGroup.dll",
-		"SQLite-net.dll",
-		"SQLitePCLRaw.batteries_green.dll",
-		"SQLitePCLRaw.batteries_v2.dll",
-		"SQLitePCLRaw.core.dll",
-		"SQLitePCLRaw.lib.e_sqlite3.dll",
-		"SQLitePCLRaw.provider.e_sqlite3.dll",
 		"StudyFlashCards.dll",
 		"Syncfusion.Cards.XForms.Android.dll",
 		"Syncfusion.Cards.XForms.dll",

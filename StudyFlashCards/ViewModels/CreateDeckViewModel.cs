@@ -4,7 +4,6 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq;
 using System.Windows.Input;
-using SQLite;
 using StudyFlashCards.Models;
 using Xamarin.Forms;
 
@@ -55,7 +54,7 @@ namespace StudyFlashCards.ViewModels
             FlashCards.Add(new FlashCard { Term = string.Empty, Definition = string.Empty });
         }
 
-        public async void SaveDeck()
+        public void SaveDeck()
         {
             if(deck != null)
             {
@@ -63,7 +62,6 @@ namespace StudyFlashCards.ViewModels
                 deck.CardCount = this.FlashCards.Count;
                 deck.FlashCards = this.FlashCards.ToList();
             }
-            await App.Database.SaveDeckAsync(deck);
         }
 
         void OnPropertyChanged(string name)

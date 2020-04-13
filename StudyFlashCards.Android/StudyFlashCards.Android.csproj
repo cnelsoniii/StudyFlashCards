@@ -57,9 +57,6 @@
     <PackageReference Include="Syncfusion.Xamarin.Cards">
       <Version>17.4.0.55</Version>
     </PackageReference>
-    <PackageReference Include="sqlite-net-pcl">
-      <Version>1.6.292</Version>
-    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
